@@ -4,17 +4,26 @@
 
 **Equity in Targeted Therapy Opportunities for Lung Adenocarcinoma Patients**
 
-## AP Biology feasibility note
+## Project type
 
-This project is designed to be completed in **two weeks** for an AP Biology-level assignment. The goal is not to do advanced cancer bioinformatics or prove a causal relationship. Instead, the project will use publicly available cancer data to make a clear, evidence-based comparison about fairness, access, and representation in precision medicine.
+This is a **secondary research project**, not a wet-lab experiment. The project will examine existing cancer genomics, therapy-evidence, and clinical-trial data to answer a biology research question with a social justice focus.
+
+## Deadline and feasibility
+
+- **Final written report due:** May 22
+- **If selected for the competitive fair:** prepare a trifold board and judge presentation for May 28
+- **Time available:** about two weeks
+
+This project is designed to be feasible for AP Biology in two weeks. It will not attempt advanced cancer bioinformatics or prove a causal relationship. Instead, it will use public data sources to make a clear, evidence-based comparison about targeted therapy access, representation, and equity.
 
 To keep the project manageable, the analysis will focus on:
 
 - One cancer type: **lung adenocarcinoma (LUAD)**
 - Three high-impact targetable biomarkers: **EGFR, ALK, and KRAS**
-- Five credible data sources
+- Five main data sources
+- At least three scientific papers for background and interpretation
 - Simple counts, percentages, tables, and charts
-- A short equity-focused interpretation
+- A short equity-focused conclusion and action recommendation
 
 ## Guiding scientific question
 
@@ -23,6 +32,10 @@ To keep the project manageable, the analysis will focus on:
 Simpler presentation-board version:
 
 **Are targeted therapy opportunities for lung adenocarcinoma equally available across different patient populations?**
+
+## Hypothesis
+
+**Targeted therapy opportunities for lung adenocarcinoma are not equally accessible across all patient populations because genomic datasets, biomarker testing, and clinical trial locations may not represent or serve all groups equally.**
 
 ## Why this matters
 
@@ -46,18 +59,24 @@ This project aligns most strongly with the **Justice** and **Action** standards,
 
 ## Guiding social-impact questions
 
-The final presentation should explicitly answer:
+The final report or presentation should explicitly answer:
 
 - **How does this project make the world more fair or healthy?** It highlights whether precision cancer medicine is reaching different patient populations equally.
 - **Who benefits from this work?** Patients, families, clinicians, researchers, and communities benefit from understanding where access gaps may exist.
 - **Who might still be left out?** People not represented in TCGA/MSK-IMPACT, people without access to genomic testing, rural patients, uninsured or underinsured patients, and patients who cannot travel to clinical trial sites may still be left out.
 - **What action can this project inspire?** More equitable genomic testing, more inclusive datasets, expanded clinical trial locations, and better education about biomarker testing for lung cancer patients.
 
-## Cancer type
+## Biology background
 
-**Lung adenocarcinoma (LUAD)**
+**Lung adenocarcinoma (LUAD)** is a common type of non-small cell lung cancer. Some LUAD tumors contain DNA changes that act like “drivers,” helping cancer cells grow. These changes can sometimes be matched to targeted therapies.
 
-Lung adenocarcinoma is a good AP Biology project focus because it has well-known genetic drivers and several established targeted therapy options.
+Important AP Biology connections:
+
+- DNA mutations can change protein function.
+- Cancer can result from changes in genes that regulate cell growth and division.
+- Different tumors can have different mutations, even when they are the same cancer type.
+- Targeted therapies are designed to interfere with specific molecular changes in cancer cells.
+- Scientific datasets can be biased if some populations are underrepresented.
 
 ## Focus biomarkers
 
@@ -67,11 +86,13 @@ To keep the project feasible in two weeks, focus on three biomarkers:
 - **ALK** — gene fusion/rearrangement with strong targeted therapy relevance
 - **KRAS** — common lung cancer mutation; KRAS G12C has targeted therapy relevance
 
-Optional extension if time allows:
+Optional extension only if time allows:
 
 - **ROS1** or **BRAF**
 
 ## Core data sources
+
+These five sources provide distinct data for the project.
 
 ### 1. TCGA via cBioPortal
 
@@ -118,18 +139,61 @@ Optional extension if time allows:
   - Which EGFR, ALK, or KRAS alterations have Level 2 evidence in lung adenocarcinoma
   - Matched targeted therapies or guideline-supported options
 
+## Scientific-paper requirement
+
+The assignment requires **at least five total sources**, with **at least three scientific papers**. The five data sources above can be used for data, but the final report should also cite peer-reviewed papers for background and interpretation.
+
+Suggested scientific papers to use:
+
+1. **The Cancer Genome Atlas Research Network.** “Comprehensive Molecular Profiling of Lung Adenocarcinoma.” *Nature*, 2014.
+   - Use for: TCGA LUAD biology, mutation patterns, molecular subtypes.
+2. **Zehir, Ahmet, et al.** “Mutational Landscape of Metastatic Cancer Revealed from Prospective Clinical Sequencing of 10,000 Patients.” *Nature Medicine*, 2017.
+   - Use for: MSK-IMPACT and real-world clinical sequencing.
+3. **Loree, Jonathan M., et al.** “Disparity of Race Reporting and Representation in Clinical Trials Leading to Cancer Drug Approvals From 2008 to 2018.” *JAMA Oncology*, 2019.
+   - Use for: equity issue, representation in cancer drug trials.
+
+Optional additional sources:
+
+- A review paper on targeted therapy in lung adenocarcinoma.
+- A paper or report on racial/ethnic, socioeconomic, or geographic disparities in lung cancer care.
+- Official OncoKB, cBioPortal, ClinicalTrials.gov, FDA, or NCCN documentation.
+
+## Data table template
+
+A spreadsheet should include these tabs:
+
+### Tab 1: cBioPortal biomarker frequencies
+
+| Dataset | Total LUAD cases | EGFR altered | EGFR % | ALK altered | ALK % | KRAS altered | KRAS % | Notes |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| TCGA via cBioPortal |  |  |  |  |  |  |  |  |
+| MSK-IMPACT via cBioPortal |  |  |  |  |  |  |  |  |
+
+### Tab 2: OncoKB therapy evidence
+
+| Gene | Alteration | Evidence level | Therapy example | Evidence source |
+|---|---|---|---|---|
+| EGFR | activating mutation | Level 1 |  | FDA label / OncoKB |
+| ALK | fusion | Level 1 |  | FDA label / OncoKB |
+| KRAS | G12C | Level 1 or 2 |  | FDA/NCCN via OncoKB |
+
+### Tab 3: ClinicalTrials.gov access
+
+| Biomarker | Search term | Active/recruiting trials found | Example trial location pattern | Access concern |
+|---|---|---:|---|---|
+| EGFR | lung adenocarcinoma EGFR targeted therapy |  |  |  |
+| ALK | lung adenocarcinoma ALK inhibitor |  |  |  |
+| KRAS | lung adenocarcinoma KRAS G12C inhibitor |  |  |  |
+
 ## Two-week work plan
 
-### Days 1–2: Set up the research question and data table
+### Days 1–2: Set up the research question and source list
 
-- Finalize the guiding question
-- Create a spreadsheet with tabs for:
-  - TCGA data
-  - MSK-IMPACT data
-  - OncoKB evidence
-  - ClinicalTrials.gov trials
-  - Final charts
-- Define the three focus biomarkers: EGFR, ALK, KRAS
+- Finalize the guiding question.
+- Confirm this is a secondary research project.
+- Create the spreadsheet tabs listed above.
+- Save the three required scientific papers.
+- Define the three focus biomarkers: EGFR, ALK, KRAS.
 
 ### Days 3–5: Collect cBioPortal data
 
@@ -154,14 +218,6 @@ Use OncoKB to identify therapy evidence for EGFR, ALK, and KRAS in lung adenocar
 - Alteration type
 - Short note about whether the evidence comes from FDA labeling or guideline support
 
-Suggested table:
-
-| Gene | Alteration | Evidence level | Therapy example | Evidence source |
-|---|---|---|---|---|
-| EGFR | activating mutation | Level 1 | example targeted therapy | FDA label / OncoKB |
-| ALK | fusion | Level 1 | example targeted therapy | FDA label / OncoKB |
-| KRAS | G12C | Level 1 or 2 | example targeted therapy | FDA/NCCN via OncoKB |
-
 ### Days 8–9: Collect ClinicalTrials.gov data
 
 Search ClinicalTrials.gov for targeted therapy trials related to:
@@ -172,16 +228,11 @@ Search ClinicalTrials.gov for targeted therapy trials related to:
 
 Collect:
 
-- Trial title
+- Trial title or trial count
 - Biomarker
 - Recruiting status
 - Number of locations
 - Location pattern, such as mostly large cities, academic centers, or certain regions
-
-Suggested chart or table:
-
-- Table of trial counts by biomarker
-- Simple map or list showing where trials are located
 
 ### Days 10–11: Make charts and compare results
 
@@ -191,115 +242,112 @@ Create 2–3 simple visuals:
 2. **Therapy evidence table:** FDA/NCCN evidence from OncoKB
 3. **Trial access chart or table:** number and location of trials by biomarker
 
-### Days 12–13: Write interpretation and equity discussion
+### Days 12–13: Write the report
 
-Answer:
+Use the required secondary-research report structure below. Make sure the report explains both the biology and the social justice impact.
 
-- Are the same biomarkers seen in both datasets?
-- Are some datasets missing demographic information?
-- Are clinical trials concentrated in certain places?
-- What does this suggest about fairness and access in precision oncology?
-
-### Day 14: Finalize presentation
+### Day 14: Finalize and submit by May 22
 
 Prepare:
 
-- Final written summary
-- Science board or slide deck
-- Works cited list
+- Final written report
+- Works cited page in MLA format
+- Optional slide deck or trifold outline if selected for the fair
 - Short conclusion and recommendation
-- One slide or section explicitly connecting the results to the Social Justice Standards
+- One section explicitly connecting the results to the Social Justice Standards
+
+## Required written report structure
+
+Because this is a secondary research project, use the assignment’s **Secondary Research Requirements** structure.
+
+### Section 1: Introduction
+
+Include:
+
+- The biology issue or research question.
+- A clear definition of the real-world problem.
+- Why the issue matters for community impact or social justice.
+- What the audience needs to understand about lung adenocarcinoma, mutations, biomarkers, and targeted therapy.
+- Who is most affected by the problem.
+- Inequities or barriers related to this issue.
+- How the project is framed as a way to improve fairness, access, or quality of life.
+
+### Section 2: Experimentation and Findings / Research Findings
+
+Since this is not a wet-lab experiment, this section should explain what research and data already exist.
+
+Include:
+
+- What scientists know about EGFR, ALK, and KRAS in lung adenocarcinoma.
+- What data were collected from cBioPortal, OncoKB, and ClinicalTrials.gov.
+- Tables and charts from the spreadsheet.
+- At least one figure from a scientific paper, if allowed by the teacher and cited properly.
+- A minimum of five sources total, with at least three scientific papers.
+
+### Section 3: Legacy or Future Questions
+
+Include:
+
+- What future work still needs to be done.
+- What questions remain unanswered.
+- What additional data would make the project stronger, such as better demographic data, insurance data, rural/urban access data, or clinical trial enrollment demographics.
+
+### Section 4: Discussion and Conclusion
+
+Include:
+
+- Overall findings.
+- Agreements or disagreements between sources.
+- Limitations, such as bias, sample size, missing data, and dataset selection bias.
+- Who benefits most from targeted therapy advances.
+- Which groups might still be left out.
+- How the project contributes to positive change.
+- Final recommendation.
+- Bibliography / works cited page in MLA format.
 
 ## Final presentation expectations
 
-The final product should be either a **lab-report-style paper** or a **PowerPoint / slide presentation**. It should be clearly organized, visually engaging, and understandable to an AP Biology audience.
+The final product should be clearly organized, visually engaging, and understandable to an AP Biology audience. It may be written as a lab-report-style paper or turned into a PowerPoint presentation.
 
 Recommended presentation structure:
 
 1. **Title and guiding research question**
 2. **Background biology:** lung adenocarcinoma, mutations, biomarkers, and targeted therapy
 3. **Equity issue:** why access to genomic testing and clinical trials matters
-4. **Data sources:** TCGA/cBioPortal, MSK-IMPACT/cBioPortal, ClinicalTrials.gov, OncoKB Level 1, OncoKB Level 2
+4. **Data sources:** TCGA/cBioPortal, MSK-IMPACT/cBioPortal, ClinicalTrials.gov, OncoKB Level 1, OncoKB Level 2, and scientific papers
 5. **Methods:** how counts, percentages, and trial-location data were collected
 6. **Results:** charts and tables
 7. **Social Justice Standards:** Identity, Diversity, Justice, and Action connections
 8. **Conclusion:** what the data suggest and what limitations remain
 9. **Action recommendations:** practical ways to improve fairness and access
-10. **Works cited**
+10. **Works cited in MLA format**
 
 The presentation should communicate both:
 
 - **Scientific understanding:** cancer mutations, biomarkers, targeted therapy, dataset comparison, and trial availability
 - **Social impact:** fairness, access, representation, health equity, and ethical use of precision medicine
 
-## Proposed analysis plan
+If selected for the schoolwide competition on May 28, convert the same content into a trifold board with:
 
-### Step 1: Define actionable biomarkers
-
-Use OncoKB to define LUAD-relevant actionable biomarkers for EGFR, ALK, and KRAS.
-
-Create a table with:
-
-- Gene
-- Alteration type
-- Therapy
-- OncoKB evidence level
-- FDA label or NCCN support
-
-### Step 2: Query TCGA LUAD in cBioPortal
-
-For EGFR, ALK, and KRAS:
-
-- Count total LUAD cases
-- Count cases with each actionable alteration
-- Calculate alteration frequency overall
-- Record demographic information only if it is easily available
-
-### Step 3: Query MSK-IMPACT LUAD in cBioPortal
-
-Repeat the same basic analysis for MSK-IMPACT LUAD cases:
-
-- Count total LUAD cases
-- Count actionable alterations
-- Compare alteration frequencies with TCGA
-
-### Step 4: Assess clinical trial access
-
-Use ClinicalTrials.gov to search for LUAD targeted therapy trials involving EGFR, ALK, and KRAS.
-
-For each biomarker, collect a small sample or count of relevant trials:
-
-- Trial title
-- Biomarker/gene
-- Therapy type
-- Recruitment status
-- Locations
-
-### Step 5: Equity interpretation
-
-Discuss whether precision oncology opportunities may be unequal because of:
-
-- Underrepresentation in genomic datasets
-- Unequal access to tumor genomic testing
-- Unequal access to academic cancer centers
-- Unequal access to clinical trials
-- Geographic distance from trial sites
-- Missing or incomplete demographic data
+- Research question
+- Background biology
+- Data sources and methods
+- Results charts
+- Equity/social justice interpretation
+- Conclusion and action recommendation
+- Works cited QR code or short citation list
 
 ## Possible final products
 
 For a two-week AP Biology project, aim for:
 
-- One written report or slide deck
+- One written report
+- One optional slide deck or trifold outline
 - One table of biomarkers and therapy evidence
 - One chart comparing TCGA and MSK-IMPACT biomarker frequencies
 - One table or chart summarizing clinical trial access
 - One Social Justice Standards section or slide
 - One equity-focused conclusion with a realistic action recommendation
-
-## Possible hypothesis
-
-**Targeted therapy opportunities for lung adenocarcinoma are not equally accessible across all patient populations because genomic datasets, biomarker testing, and clinical trial locations may not represent or serve all groups equally.**
 
 ## Expected conclusion format
 
