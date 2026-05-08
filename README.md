@@ -20,14 +20,14 @@ To keep the project manageable, the analysis will focus on:
 
 - One cancer type: **lung adenocarcinoma (LUAD)**
 - Three high-impact targetable biomarkers: **EGFR, ALK, and KRAS**
-- Five main data sources
+- Four main project data sources, with **ClinicalTrials.gov as an optional extension if time allows**
 - At least three scientific papers for background and interpretation
 - Simple counts, percentages, tables, and charts
 - A short equity-focused conclusion and action recommendation
 
 ## Guiding scientific question
 
-**Are targeted therapy opportunities for lung adenocarcinoma equally represented and accessible across different patient populations, based on actionable biomarkers found in TCGA and MSK-IMPACT data and therapy opportunities supported by FDA labels, NCCN guidelines, and clinical trials?**
+**Are targeted therapy opportunities for lung adenocarcinoma equally represented across different patient populations, based on actionable biomarkers found in TCGA and MSK-IMPACT data and therapy opportunities supported by FDA labels and NCCN guidelines?**
 
 Simpler presentation-board version:
 
@@ -77,6 +77,7 @@ Important AP Biology connections:
 - Different tumors can have different mutations, even when they are the same cancer type.
 - Targeted therapies are designed to interfere with specific molecular changes in cancer cells.
 - Scientific datasets can be biased if some populations are underrepresented.
+- Access to testing and treatment can shape who benefits from biomedical discoveries.
 
 ## Focus biomarkers
 
@@ -92,7 +93,7 @@ Optional extension only if time allows:
 
 ## Core data sources
 
-These five sources provide distinct data for the project.
+These four sources provide the core data for the project. The source requirement is still met by combining these data sources with at least three scientific papers listed below.
 
 ### 1. TCGA via cBioPortal
 
@@ -114,16 +115,7 @@ These five sources provide distinct data for the project.
   - Number and percentage with EGFR, ALK, or KRAS alterations
   - Compare results with TCGA
 
-### 3. ClinicalTrials.gov
-
-- Source: <https://clinicaltrials.gov/>
-- Role in project: trial access and availability for targeted therapy opportunities.
-- Data to collect:
-  - Number of recruiting or active lung adenocarcinoma trials for EGFR, ALK, and KRAS
-  - Trial locations, especially whether they are concentrated in certain states, cities, or academic centers
-  - Basic eligibility requirements involving biomarkers
-
-### 4. FDA drug labels via OncoKB Level 1
+### 3. FDA drug labels via OncoKB Level 1
 
 - Source: <https://www.oncokb.org/>
 - Role in project: identifies biomarkers with FDA-recognized therapeutic evidence.
@@ -131,7 +123,7 @@ These five sources provide distinct data for the project.
   - Which EGFR, ALK, or KRAS alterations have Level 1 evidence in lung adenocarcinoma
   - Matched targeted therapies
 
-### 5. NCCN-supported evidence via OncoKB Level 2
+### 4. NCCN-supported evidence via OncoKB Level 2
 
 - Source: <https://www.oncokb.org/>
 - Role in project: identifies biomarkers with guideline-supported therapeutic relevance.
@@ -141,7 +133,7 @@ These five sources provide distinct data for the project.
 
 ## Scientific-paper requirement
 
-The assignment requires **at least five total sources**, with **at least three scientific papers**. The five data sources above can be used for data, but the final report should also cite peer-reviewed papers for background and interpretation.
+The assignment requires **at least five total sources**, with **at least three scientific papers**. This plan uses four core data sources plus at least three peer-reviewed papers, so it satisfies the source requirement without requiring ClinicalTrials.gov if time is short.
 
 Suggested scientific papers to use:
 
@@ -177,7 +169,7 @@ A spreadsheet should include these tabs:
 | ALK | fusion | Level 1 |  | FDA label / OncoKB |
 | KRAS | G12C | Level 1 or 2 |  | FDA/NCCN via OncoKB |
 
-### Tab 3: ClinicalTrials.gov access
+### Optional tab 3: ClinicalTrials.gov access, only if time allows
 
 | Biomarker | Search term | Active/recruiting trials found | Example trial location pattern | Access concern |
 |---|---|---:|---|---|
@@ -218,21 +210,17 @@ Use OncoKB to identify therapy evidence for EGFR, ALK, and KRAS in lung adenocar
 - Alteration type
 - Short note about whether the evidence comes from FDA labeling or guideline support
 
-### Days 8–9: Collect ClinicalTrials.gov data
+### Days 8–9: Collect scientific-paper evidence and optional ClinicalTrials.gov data
 
-Search ClinicalTrials.gov for targeted therapy trials related to:
+Required work:
 
-- `lung adenocarcinoma EGFR targeted therapy`
-- `lung adenocarcinoma ALK inhibitor`
-- `lung adenocarcinoma KRAS G12C inhibitor`
+- Pull key facts, figures, and quotes from at least three scientific papers.
+- Use the papers to explain LUAD biology, targeted therapy, dataset bias, and representation issues.
 
-Collect:
+Optional extension if time allows:
 
-- Trial title or trial count
-- Biomarker
-- Recruiting status
-- Number of locations
-- Location pattern, such as mostly large cities, academic centers, or certain regions
+- Search ClinicalTrials.gov for EGFR, ALK, and KRAS targeted therapy trials.
+- Record trial counts, locations, and whether access appears concentrated in major cities or academic centers.
 
 ### Days 10–11: Make charts and compare results
 
@@ -240,7 +228,8 @@ Create 2–3 simple visuals:
 
 1. **Biomarker frequency chart:** EGFR, ALK, KRAS in TCGA vs MSK-IMPACT
 2. **Therapy evidence table:** FDA/NCCN evidence from OncoKB
-3. **Trial access chart or table:** number and location of trials by biomarker
+3. **Scientific-paper evidence table:** key findings from at least three papers
+4. **Optional trial access chart or table:** number and location of trials by biomarker, only if time allows
 
 ### Days 12–13: Write the report
 
@@ -279,7 +268,8 @@ Since this is not a wet-lab experiment, this section should explain what researc
 Include:
 
 - What scientists know about EGFR, ALK, and KRAS in lung adenocarcinoma.
-- What data were collected from cBioPortal, OncoKB, and ClinicalTrials.gov.
+- What data were collected from cBioPortal and OncoKB.
+- If time allows, what additional trial-access data were collected from ClinicalTrials.gov.
 - Tables and charts from the spreadsheet.
 - At least one figure from a scientific paper, if allowed by the teacher and cited properly.
 - A minimum of five sources total, with at least three scientific papers.
@@ -314,7 +304,7 @@ Recommended presentation structure:
 1. **Title and guiding research question**
 2. **Background biology:** lung adenocarcinoma, mutations, biomarkers, and targeted therapy
 3. **Equity issue:** why access to genomic testing and clinical trials matters
-4. **Data sources:** TCGA/cBioPortal, MSK-IMPACT/cBioPortal, ClinicalTrials.gov, OncoKB Level 1, OncoKB Level 2, and scientific papers
+4. **Data sources:** TCGA/cBioPortal, MSK-IMPACT/cBioPortal, OncoKB Level 1, OncoKB Level 2, and scientific papers; ClinicalTrials.gov only if time allows
 5. **Methods:** how counts, percentages, and trial-location data were collected
 6. **Results:** charts and tables
 7. **Social Justice Standards:** Identity, Diversity, Justice, and Action connections
@@ -345,7 +335,8 @@ For a two-week AP Biology project, aim for:
 - One optional slide deck or trifold outline
 - One table of biomarkers and therapy evidence
 - One chart comparing TCGA and MSK-IMPACT biomarker frequencies
-- One table or chart summarizing clinical trial access
+- One table summarizing scientific-paper evidence
+- Optional table or chart summarizing clinical trial access if time allows
 - One Social Justice Standards section or slide
 - One equity-focused conclusion with a realistic action recommendation
 
@@ -353,17 +344,17 @@ For a two-week AP Biology project, aim for:
 
 The final conclusion should be cautious and evidence-based. For example:
 
-> This project cannot prove that all targeted therapy access is unequal, but the data can show whether important precision oncology resources — genomic datasets, therapy evidence, and clinical trials — appear evenly distributed or whether there are signs of unequal representation and access.
+> This project cannot prove that all targeted therapy access is unequal, but the data can show whether important precision oncology resources — genomic datasets, therapy evidence, and optional clinical-trial information — appear evenly distributed or whether there are signs of unequal representation and access.
 
 ## Limitations to acknowledge
 
 - TCGA is a research dataset and may not represent all real-world cancer patients.
 - MSK-IMPACT reflects patients treated or sequenced in a major cancer-center context and may also have selection bias.
 - Some cBioPortal studies have incomplete race, ethnicity, or socioeconomic data.
-- ClinicalTrials.gov shows trial availability but does not always provide complete participant demographic enrollment data.
+- ClinicalTrials.gov is optional; if used, it shows trial availability but does not always provide complete participant demographic enrollment data.
 - OncoKB evidence levels identify therapy evidence but do not directly measure whether patients can actually access the therapy.
 - A two-week AP Biology project should focus on patterns and interpretation, not advanced statistical proof.
 
 ## Equity and social impact connection
 
-This project can help show that precision medicine is not only a scientific issue but also a fairness issue. If targeted therapies depend on who gets tested, who is represented in datasets, and who can reach clinical trials, then improving equity in cancer care requires better access to genomic testing, more diverse research participation, and broader availability of biomarker-matched therapies.
+This project can help show that precision medicine is not only a scientific issue but also a fairness issue. If targeted therapies depend on who gets tested, who is represented in datasets, and who can access treatments or, if analyzed, who can reach clinical trials, then improving equity in cancer care requires better access to genomic testing, more diverse research participation, and broader availability of biomarker-matched therapies.
