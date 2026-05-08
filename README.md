@@ -27,7 +27,7 @@ To keep the project manageable, the analysis will focus on:
 
 ## Guiding scientific question
 
-**Are targeted therapy opportunities for lung adenocarcinoma equally represented across different patient populations, based on actionable biomarkers found in TCGA and MSK-IMPACT data and therapy opportunities supported by FDA labels and NCCN guidelines?**
+**Are targeted therapy opportunities for lung adenocarcinoma equally represented across different patient populations, based on actionable biomarkers found in TCGA and MSK-IMPACT 50K data and therapy opportunities supported by FDA labels and NCCN guidelines?**
 
 Simpler presentation-board version:
 
@@ -63,7 +63,7 @@ The final report or presentation should explicitly answer:
 
 - **How does this project make the world more fair or healthy?** It highlights whether precision cancer medicine is reaching different patient populations equally.
 - **Who benefits from this work?** Patients, families, clinicians, researchers, and communities benefit from understanding where access gaps may exist.
-- **Who might still be left out?** People not represented in TCGA/MSK-IMPACT, people without access to genomic testing, rural patients, uninsured or underinsured patients, and patients who cannot travel to clinical trial sites may still be left out.
+- **Who might still be left out?** People not represented in TCGA/MSK-IMPACT 50K, people without access to genomic testing, rural patients, uninsured or underinsured patients, and patients who cannot travel to clinical trial sites may still be left out.
 - **What action can this project inspire?** More equitable genomic testing, more inclusive datasets, expanded clinical trial locations, and better education about biomarker testing for lung cancer patients.
 
 ## Biology background
@@ -110,13 +110,13 @@ These four sources provide the core data for the project. The source requirement
   - Number and percentage with EGFR, ALK, or KRAS alterations
   - Available demographic information, such as sex, race/ethnicity, or age, if available
 
-### 2. MSK-IMPACT via cBioPortal
+### 2. MSK-IMPACT 50K via cBioPortal
 
 - Source: <https://www.cbioportal.org/>
-- Dataset example: MSK-IMPACT clinical sequencing cohorts that include lung adenocarcinoma
-- Role in project: real-world clinical sequencing comparison cohort.
+- Dataset: MSK-IMPACT 50K Clinical Sequencing Cohort (`msk_impact_50k_2026`), filtered to lung adenocarcinoma samples
+- Role in project: large real-world clinical sequencing comparison cohort.
 - Data to collect:
-  - Total number of LUAD patients sequenced
+  - Total number of LUAD samples in the MSK-IMPACT 50K study
   - Number and percentage with EGFR, ALK, or KRAS alterations
   - Compare results with TCGA
 
@@ -164,7 +164,7 @@ A spreadsheet should include these tabs:
 | Dataset | Total LUAD cases | EGFR altered | EGFR % | ALK altered | ALK % | KRAS altered | KRAS % | Notes |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
 | TCGA via cBioPortal |  |  |  |  |  |  |  |  |
-| MSK-IMPACT via cBioPortal |  |  |  |  |  |  |  |  |
+| MSK-IMPACT 50K via cBioPortal |  |  |  |  |  |  |  |  |
 
 ### Tab 2: OncoKB therapy evidence
 
@@ -194,7 +194,7 @@ A spreadsheet should include these tabs:
 
 ### Days 3–5: Collect cBioPortal data
 
-Use cBioPortal to collect simple counts and percentages for TCGA and MSK-IMPACT:
+Use cBioPortal to collect simple counts and percentages for TCGA and the MSK-IMPACT 50K LUAD subset:
 
 - Total LUAD patients in each dataset
 - Number with EGFR alterations
@@ -204,7 +204,7 @@ Use cBioPortal to collect simple counts and percentages for TCGA and MSK-IMPACT:
 
 Suggested chart:
 
-- Bar chart comparing EGFR, ALK, and KRAS alteration frequencies in TCGA vs MSK-IMPACT
+- Bar chart comparing EGFR, ALK, and KRAS alteration frequencies in TCGA vs MSK-IMPACT 50K
 
 ### Days 6–7: Collect OncoKB therapy evidence
 
@@ -231,7 +231,7 @@ Optional extension if time allows:
 
 Create 2–3 simple visuals:
 
-1. **Biomarker frequency chart:** EGFR, ALK, KRAS in TCGA vs MSK-IMPACT
+1. **Biomarker frequency chart:** EGFR, ALK, KRAS in TCGA vs MSK-IMPACT 50K
 2. **Therapy evidence table:** FDA/NCCN evidence from OncoKB
 3. **Scientific-paper evidence table:** key findings from at least three papers
 4. **Optional trial access chart or table:** number and location of trials by biomarker, only if time allows
@@ -309,7 +309,7 @@ Recommended presentation structure:
 1. **Title and guiding research question**
 2. **Background biology:** lung adenocarcinoma, mutations, biomarkers, and targeted therapy
 3. **Equity issue:** why access to genomic testing and clinical trials matters
-4. **Data sources:** TCGA/cBioPortal, MSK-IMPACT/cBioPortal, OncoKB Level 1, OncoKB Level 2, and scientific papers; ClinicalTrials.gov only if time allows
+4. **Data sources:** TCGA/cBioPortal, MSK-IMPACT 50K/cBioPortal, OncoKB Level 1, OncoKB Level 2, and scientific papers; ClinicalTrials.gov only if time allows
 5. **Methods:** how counts, percentages, and trial-location data were collected
 6. **Results:** charts and tables
 7. **Social Justice Standards:** Identity, Diversity, Justice, and Action connections
@@ -339,7 +339,7 @@ For a two-week AP Biology project, aim for:
 - One written report
 - One optional slide deck or trifold outline
 - One table of biomarkers and therapy evidence
-- One chart comparing TCGA and MSK-IMPACT biomarker frequencies
+- One chart comparing TCGA and MSK-IMPACT 50K biomarker frequencies
 - One table summarizing scientific-paper evidence
 - Optional table or chart summarizing clinical trial access if time allows
 - One Social Justice Standards section or slide
@@ -354,7 +354,7 @@ The final conclusion should be cautious and evidence-based. For example:
 ## Limitations to acknowledge
 
 - TCGA is a research dataset and may not represent all real-world cancer patients.
-- MSK-IMPACT reflects patients treated or sequenced in a major cancer-center context and may also have selection bias.
+- MSK-IMPACT 50K reflects patients treated or sequenced in a major cancer-center context and may also have selection bias.
 - Some cBioPortal studies have incomplete race, ethnicity, or socioeconomic data.
 - ClinicalTrials.gov is optional; if used, it shows trial availability but does not always provide complete participant demographic enrollment data.
 - OncoKB evidence levels identify therapy evidence but do not directly measure whether patients can actually access the therapy.

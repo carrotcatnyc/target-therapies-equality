@@ -10,30 +10,39 @@ EGFR is a strong first gene for this AP Biology project because it is a well-kno
 
 ## Data sources used
 
-Data were queried from cBioPortal public API on May 7, 2026.
+Data were queried from the cBioPortal public API on May 7, 2026.
 
 | Dataset | cBioPortal study ID | Description |
 |---|---|---|
 | TCGA LUAD PanCancer Atlas | `luad_tcga_pan_can_atlas_2018` | Public research cohort |
-| MSK LUAD 2020 | `luad_mskcc_2020` | MSK-IMPACT clinical sequencing cohort |
+| MSK-IMPACT 50K LUAD subset | `msk_impact_50k_2026` | Large pan-cancer MSK-IMPACT clinical sequencing cohort, filtered to LUAD samples |
 
 ## Main results
 
 | Dataset | Sequenced LUAD samples | EGFR-altered samples | EGFR alteration frequency |
 |---|---:|---:|---:|
 | TCGA LUAD PanCancer Atlas | 566 | 70 | 12.4% |
-| MSK LUAD 2020 | 604 | 182 | 30.1% |
+| MSK-IMPACT 50K LUAD subset | 6,254 | 1,967 | 31.5% |
 
 ## Common EGFR protein changes
 
 | Dataset | Most common EGFR protein changes |
 |---|---|
 | TCGA LUAD PanCancer Atlas | L858R, E746_A750del, L861Q, E709_T710delinsD, S768I, T790M, G719A |
-| MSK LUAD 2020 | L858R, E746_A750del, L747_P753delinsS, L747_A750delinsP, L747_T751del, A767_V769dup, S768I, G719A |
+| MSK-IMPACT 50K LUAD subset | L858R, E746_A750del, T790M, L747_P753delinsS, L861Q, G719A, S768I, L747_T751del, L747_A750delinsP |
+
+## How the MSK-IMPACT 50K LUAD subset was defined
+
+The MSK-IMPACT 50K study is a pan-cancer study, not a lung-only study. For this preliminary analysis, LUAD samples were selected using cBioPortal sample clinical fields:
+
+- `ONCOTREE_CODE = LUAD`, or
+- `CANCER_TYPE_DETAILED = Lung Adenocarcinoma`
+
+This produced **6,254 LUAD samples** from the 50K cohort.
 
 ## Demographic notes from available cBioPortal clinical fields
 
-TCGA had race, ethnicity, and sex fields available. MSK LUAD 2020 had sex available, but race/ethnicity was not available in the same simple cBioPortal clinical fields checked here.
+TCGA had race, ethnicity, and sex fields available. The MSK-IMPACT 50K data are much larger and better for clinical sequencing comparison, but race/ethnicity was not available in the simple cBioPortal clinical fields checked here.
 
 ### TCGA LUAD race representation
 
@@ -55,21 +64,14 @@ Important caution: the Asian and American Indian/Alaska Native groups are very s
 | Male | 239 | 21 |
 | Unknown | 52 | 4 |
 
-### MSK LUAD 2020 sex representation
-
-| Sex | All MSK LUAD patients | EGFR-altered patients |
-|---|---:|---:|
-| Female | 402 | 139 |
-| Male | 202 | 43 |
-
 ## Preliminary interpretation
 
 EGFR alterations appeared in both datasets, but the frequency differed a lot:
 
 - TCGA LUAD: **12.4%** EGFR-altered
-- MSK LUAD 2020: **30.1%** EGFR-altered
+- MSK-IMPACT 50K LUAD subset: **31.5%** EGFR-altered
 
-This does not automatically mean one dataset is “right” and the other is “wrong.” The difference may reflect how the cohorts were collected. TCGA is a public research cohort, while MSK-IMPACT is a clinical sequencing cohort from a major cancer center. Patients who receive clinical sequencing at a specialized center may not represent all lung adenocarcinoma patients.
+This does not automatically mean one dataset is “right” and the other is “wrong.” The difference may reflect how the cohorts were collected. TCGA is a public research cohort, while MSK-IMPACT 50K is a large clinical sequencing cohort from a major cancer center. Patients who receive clinical sequencing at a specialized center may not represent all lung adenocarcinoma patients.
 
 For the equity question, this is useful because it shows why dataset representation matters. If targeted therapy decisions and research conclusions depend on who is included in genomic datasets, then underrepresented groups may benefit less from precision medicine.
 
@@ -86,13 +88,13 @@ This preliminary EGFR result supports the project’s social justice focus:
 
 - This is a preliminary analysis of one gene only.
 - cBioPortal clinical demographic fields are incomplete in some studies.
-- The MSK dataset used here does not provide the same race/ethnicity fields checked in TCGA.
+- The MSK-IMPACT 50K clinical fields checked here did not provide the same race/ethnicity data available in TCGA.
 - The project should avoid making strong claims about race-specific EGFR frequency from very small groups.
 - The result shows patterns and raises equity questions; it does not prove unequal access by itself.
 
 ## Next steps
 
-1. Repeat the same simple analysis for **ALK** and **KRAS**.
-2. Create one bar chart comparing EGFR, ALK, and KRAS alteration frequencies in TCGA vs MSK.
+1. Repeat the same simple analysis for **ALK** and **KRAS** using TCGA LUAD and the MSK-IMPACT 50K LUAD subset.
+2. Create one bar chart comparing EGFR, ALK, and KRAS alteration frequencies in TCGA vs MSK-IMPACT 50K.
 3. Use OncoKB to connect EGFR alterations to Level 1 / Level 2 therapy evidence.
 4. In the report, discuss how missing demographic data is itself an equity issue because it limits the ability to evaluate fairness.
