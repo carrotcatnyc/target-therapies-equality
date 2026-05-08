@@ -91,6 +91,11 @@ Optional extension only if time allows:
 
 - **ROS1** or **BRAF**
 
+
+## Preliminary analyses
+
+- [EGFR preliminary cBioPortal analysis](analysis/egfr-preliminary-analysis.md)
+
 ## Core data sources
 
 These four sources provide the core data for the project. The source requirement is still met by combining these data sources with at least three scientific papers listed below.
